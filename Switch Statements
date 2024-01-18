@@ -1,0 +1,29 @@
+int employeeLevel = 100;
+string employeeName = "Muhammad Bilal";
+string title = " ";
+
+switch(employeeLevel)
+{
+    case 100:
+    title = "Jr. Developer";
+    break;
+
+    case 200:
+    title = "Snr. Developer";
+    break;
+
+    case 300:
+    title = "Product Manager";
+    break;
+
+    case 400:
+    title = "Chief Technology Officer";
+    break;
+
+    default:
+    title = "Assosiate Devloper";
+    break;
+
+}
+
+Console.WriteLine($"{employeeName}, {title}");
